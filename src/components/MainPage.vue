@@ -1,6 +1,9 @@
 <template>
-  <div class="hello">
-    Hello
+  <div>
+    <div class="hello">Hello</div>
+    <transition name>
+      <img id="profile-photo" src="../assets/nick-b.jpg" />
+    </transition>
   </div>
 </template>
 
