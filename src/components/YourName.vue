@@ -1,14 +1,15 @@
 <template>
-  <div class="hello">
-    Hello
+  <div>
+    <div class="your-name">Vuer</div>
+
   </div>
 </template>
 
 <script>
-import "../scss/mainpage.scss";
+import '../scss/yourname.scss';
 
 export default {
-  name: "MainPage",
+  name: "YourName",
   props: {
     msg: String,
   },
